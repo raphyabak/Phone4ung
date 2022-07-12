@@ -36,17 +36,17 @@
 .close.admin-close-btn {
     padding: 5px;
     right: 3px;
-    color: #EF1B27;
+    color: #fca610;
     opacity: 1;
 }
 .front-close-btn.btn-close {
     top: 3px;
     right: 3px;
     font-size: 24px;
-    color: #EF1B27;
+    color: #fca610;
 }
 .close.admin-close-btn:hover, .front-close-btn.btn-close:hover {
-    color: #CC1F28;
+    color: #ea4c2c;
     opacity: 1!important;
 }
 .js-cookie-consent button:focus {
@@ -67,12 +67,12 @@
     font-weight: 600;
     text-transform: capitalize;
     color: #fff;
-    background-color: #EF1B27;
+    background-color: #fca610;
     -webkit-transition: all 0.3s linear;
     transition: all 0.3s linear;
     border: none;
 }
 .main-cookie-content .primary-btn:hover {
-    background-color: #CC1F28;
+    background-color: #ea4c2c;
     color: #fff;
 }

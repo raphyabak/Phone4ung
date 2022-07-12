@@ -1,7 +1,7 @@
 :root {
     font-size: 62.5%;
-    --primary-color: #EF1B27;
-    --hover-color: #CC1F28;
+    --primary-color: #fca610;
+    --hover-color: #ea4c2c;
     --primary-color-two: #0D7862;
     --hover-color-two: #04B691;
     --primary-color-three: #5F8E3E;
@@ -971,7 +971,7 @@ ul {
 }
 
 .header-area .header-middle .header-middle-wrap .header-right .single-btn .header-btn.cart-btn .btn-left .count {
-    background-color: #EF1B27
+    background-color: #fca610
 }
 
 .header-area .header-bottom {
@@ -1208,7 +1208,7 @@ ul {
 }
 
 .header-area .header-bottom .menu-area .main-menu .menu-item.mega-menu-parent .mega-menu .mega-menu-item .menu-items .mega-menu-items .mega-menu-link .menu-item-badge.new {
-    background-color: #EF1B27
+    background-color: #fca610
 }
 
 .header-area .header-bottom .menu-area .main-menu .menu-item.mega-menu-parent .mega-menu .mega-menu-item .menu-items .mega-menu-items .mega-menu-link .menu-item-badge.trending {
@@ -1917,7 +1917,7 @@ ul {
 }
 
 .header-area-v2 .header-bottom .menu-area .main-menu .menu-item.mega-menu-parent .mega-menu .mega-menu-item .menu-items .mega-menu-items .mega-menu-link .menu-item-badge.new {
-    background-color: #EF1B27
+    background-color: #fca610
 }
 
 .header-area-v2 .header-bottom .menu-area .main-menu .menu-item.mega-menu-parent .mega-menu .mega-menu-item .menu-items .mega-menu-items .mega-menu-link .menu-item-badge.trending {
@@ -2364,7 +2364,7 @@ ul {
 }
 
 .header-area-v3 .menu-area .main-menu .menu-item.mega-menu-parent .mega-menu .mega-menu-item .menu-items .mega-menu-items .mega-menu-link .menu-item-badge.new {
-    background-color: #EF1B27
+    background-color: #fca610
 }
 
 .header-area-v3 .menu-area .main-menu .menu-item.mega-menu-parent .mega-menu .mega-menu-item .menu-items .mega-menu-items .mega-menu-link .menu-item-badge.trending {
@@ -2528,7 +2528,7 @@ ul {
 }
 
 .mobile-header-area .header-right .header-btn.cart-btn .btn-left .count {
-    background-color: #EF1B27
+    background-color: #fca610
 }
 
 .mobile-header-area .header-right .menu-bar {
@@ -2826,7 +2826,7 @@ ul {
 }
 
 .menu-offcanvas .mobile-menu-area .main-menu .menu-list .menu-item .sub-menu .sub-menu-link .menu-item-badge.new {
-    background-color: #EF1B27
+    background-color: #fca610
 }
 
 .menu-offcanvas .mobile-menu-area .main-menu .menu-list .menu-item .sub-menu .sub-menu-link .menu-item-badge.trending {
