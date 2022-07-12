@@ -144,29 +144,7 @@
     <!-- Featured Products area end here  -->
 
     <!-- About Area start here  -->
-    <div class="about-area section">
-        <div class="container">
-            <div class="section-header-area">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h3 class="sub-title">{{langConverter(siteContentHomePage('about_us')->en_Title,siteContentHomePage('about_us')->fr_Title)}}</h3>
-                        <h2 class="section-title">{!! clean(langConverter(siteContentHomePage('about_us')->en_Description_One,siteContentHomePage('about_us')->fr_Description_One)) !!}</h2>
-                    </div>
-                    <div class="col-md-6 align-self-end text-md-end">
-                        <a href="{{route('about.us')}}" class="primary-btn">{{__('Know More About Us')}}</a>
-                    </div>
-                </div>
-            </div>
-            <div class="story-box-slide">
-                @foreach($story as $item)
-                <div class="single-story-box">
-                    <h3 class="story-title">{{__('Story Of')}} <span class="story-year">{{$item->Year}}</span></h3>
-                    <p class="story-content">{{langConverter($item->en_Description,$item->fr_Description)}}</p>
-                </div>
-                @endforeach
-            </div>
-        </div>
-    </div>
+    
     <!-- About Area  end here  -->
 
     <!-- Trending Products area start here  -->
@@ -450,55 +428,7 @@
     <!-- Blog area end here  -->
 
     <!-- Image Gallery area start here  -->
-    <div class="image-gallery-area section-top pb-110">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-4">
-                    <div class="section-header-area">
-                        <h3 class="sub-title">{{langConverter(siteContentHomePage('image_gallery')->en_Title,siteContentHomePage('image_gallery')->fr_Title)}}</h3>
-                        <h2 class="section-title">{{ langConverter(siteContentHomePage('image_gallery')->en_Description_One,siteContentHomePage('image_gallery')->fr_Description_One) }}</h2>
-                    </div>
-                    @foreach($image_gallery as $item)
-                        @if ($loop->iteration %3==1)
-                            @if($item->Image !='' && $item->Image!=null)
-                                <div class="single-gallery {{($loop->index == 3 ?'big-height' : '')}}">
-                                    <img class="gallery-image" src="{{asset(ImageGallery().$item->Image)}}" alt="gallery" />
-                                    <div class="popuo-overlay">
-                                        <a class="popup-image" href="{{asset(ImageGallery().$item->Image)}}"><i class="view-icon flaticon-view"></i></a>
-                                    </div>
-                                </div>
-                            @endif
-                        @endif
-                    @endforeach
-                </div>
-                <div class="col-lg-4 col-md-4">
-                    @foreach($image_gallery as $item)
-                        @if ($loop->iteration %3==2)
-                            <div class="single-gallery">
-                                <img class="gallery-image" src="{{asset(ImageGallery().$item->Image)}}" alt="gallery" />
-                                <div class="popuo-overlay">
-                                    <a class="popup-image" href="{{asset(ImageGallery().$item->Image)}}"><i class="view-icon flaticon-view"></i></a>
-                                </div>
-                            </div>
-                        @endif
-                    @endforeach
-
-                </div>
-                <div class="col-lg-4 col-md-4">
-                    @foreach($image_gallery as $item)
-                        @if ($loop->iteration %3==0)
-                            <div class="single-gallery">
-                                <img class="gallery-image" src="{{asset(ImageGallery().$item->Image)}}" alt="gallery" />
-                                <div class="popuo-overlay">
-                                    <a class="popup-image" href="{{asset(ImageGallery().$item->Image)}}}"><i class="view-icon flaticon-view"></i></a>
-                                </div>
-                            </div>
-                        @endif
-                    @endforeach
-                </div>
-            </div>
-        </div>
-    </div>
+    
     <!-- Image Gallery area end here  -->
 
     <!-- Testimonial ara start here  -->
